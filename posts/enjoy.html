@@ -1,59 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../style.css">
     <style>
-    /* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: monospace;
-}
+        .bulk {
+            font-family: monospace;
+            text-align: center;
+        }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+        .ani {
+            animation-duration: 3s;
+            animation-name: vroom;
+            animation-fill-mode: forwards;
+        }
 
-.bulk {
-    font-family: monospace;
-    text-align: center;
-}
-
-.ani {
-    animation-duration: 3s;
-    animation-name: vroom;
-    animation-fill-mode: forwards;
-}
-
-@keyframes vroom {
-    from {
-        translate: -10000px 0;
-        scale: 100%;
-    }
-    to {
-        translate: 2000px 0;
-        scale: 200%;
-    }
-}
+        @keyframes vroom {
+            from {
+                translate: -10000px 0;
+                scale: 100%;
+            }
+            to {
+                translate: 2000px 0;
+                scale: 200%;
+            }
+        }
 
     </style>
-    <head>
+    </head>
+    <body>
+
         <div class="navbar">
             <a href="../bloghome.html">Back</a>
         </div>
         <div class="ani">
             <p>NEEEEEEERRRRROOOOOOOOM</p>
         </div>
-    </head>
-    <body>
+
         <div class="bulk">
             <h1>Doing shit,<br> For the love of the game</h1>
             <p>Im not sure if you noticed, but I have figured out animations.</p>
